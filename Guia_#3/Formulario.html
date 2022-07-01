@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+
+
+    <main>
+        <form action="mailto:danluis2a25@gmail.com" method="post" enctype="text/plain">
+            <label for="nombre">
+                <span>Escribe tu nombre:</span>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+            </label>
+            <br>
+            <br>
+
+            <label for="contraseña">
+                <span>Introduce tu contraseña:</span>
+                <input type="password" id="contraseña" name="contraseña" placeholder="Tu contraseña" autocomplete="current-password" required>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="imagen">
+                <span>Envie una foto</span>
+                <input type="text" id="imagen" name="imagen" placeholder="Envie una foto">
+                <button><img>Examinar</button>
+            </label>
+
+            <br>
+            <br>
+
+            <span>Este manual te parece: </span>
+            <br>
+            <label for="Mbueno">
+                <span>Muy bueno</span>
+                <input type="radio" id="Mbueno" name="lista">
+            </label>
+
+            <br>
+
+            <label for="Bueno">
+                <span>Bueno</span>
+                <input type="radio" id="Bueno" name="lista">
+            </label>
+
+            <br>
+
+            <label for="Malo">
+                <span>Malo</span>
+                <input type="radio" id="Malo" name="lista">
+            </label>
+
+            <br>
+
+            <label for="Mmalo">
+                <span>Muy malo</span>
+                <input type="radio" id="Mmalo" name="lista">
+            </label>
+            <br>
+            <br>
+
+            <label for="check">
+                <span>Avisar de notificaciones</span>
+                <input type="checkbox" id="check" name="check">
+            </label>
+
+            <br>
+            <br>
+            <input type="submit">
+            <button id="borrar">Borrar</button>
+        </form>
+    </main>
+
+</body>
+</html>
